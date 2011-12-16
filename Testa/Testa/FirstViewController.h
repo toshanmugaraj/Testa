@@ -11,8 +11,5 @@
 @interface FirstViewController : UIViewController
 {
     IBOutlet UIButton *button;
-    IBOutlet UIButton *button2;
-    
-    
 }
 @end
