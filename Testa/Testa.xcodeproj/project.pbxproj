@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A41E6F35149B885900ED2518 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41E6F34149B885900ED2518 /* UIKit.framework */; };
+		A41E6F37149B885900ED2518 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41E6F36149B885900ED2518 /* Foundation.framework */; };
+		A41E6F39149B885900ED2518 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41E6F38149B885900ED2518 /* CoreGraphics.framework */; };
+		A41E6F3F149B885900ED2518 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A41E6F3D149B885900ED2518 /* InfoPlist.strings */; };
+		A41E6F41149B885900ED2518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A41E6F40149B885900ED2518 /* main.m */; };
+		A41E6F45149B885900ED2518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A41E6F44149B885900ED2518 /* AppDelegate.m */; };
+		A41E6F48149B885900ED2518 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A41E6F47149B885900ED2518 /* FirstViewController.m */; };
+		A41E6F4A149B885900ED2518 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = A41E6F49149B885900ED2518 /* first.png */; };
+		A41E6F4C149B885900ED2518 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41E6F4B149B885900ED2518 /* first@2x.png */; };
+		A41E6F4F149B885900ED2518 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A41E6F4E149B885900ED2518 /* SecondViewController.m */; };
+		A41E6F51149B885900ED2518 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = A41E6F50149B885900ED2518 /* second.png */; };
+		A41E6F53149B885900ED2518 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A41E6F52149B885900ED2518 /* second@2x.png */; };
+		A41E6F56149B885900ED2518 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A41E6F54149B885900ED2518 /* FirstViewController.xib */; };
+		A41E6F59149B885900ED2518 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A41E6F57149B885900ED2518 /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A41E6F30149B885900ED2518 /* Testa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41E6F34149B885900ED2518 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A41E6F36149B885900ED2518 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A41E6F38149B885900ED2518 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A41E6F3C149B885900ED2518 /* Testa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Testa-Info.plist"; sourceTree = "<group>"; };
+		A41E6F3E149B885900ED2518 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A41E6F40149B885900ED2518 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A41E6F42149B885900ED2518 /* Testa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Testa-Prefix.pch"; sourceTree = "<group>"; };
+		A41E6F43149B885900ED2518 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A41E6F44149B885900ED2518 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A41E6F46149B885900ED2518 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A41E6F47149B885900ED2518 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A41E6F49149B885900ED2518 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		A41E6F4B149B885900ED2518 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		A41E6F4D149B885900ED2518 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A41E6F4E149B885900ED2518 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A41E6F50149B885900ED2518 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		A41E6F52149B885900ED2518 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		A41E6F55149B885900ED2518 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		A41E6F58149B885900ED2518 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A41E6F2D149B885900ED2518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41E6F35149B885900ED2518 /* UIKit.framework in Frameworks */,
+				A41E6F37149B885900ED2518 /* Foundation.framework in Frameworks */,
+				A41E6F39149B885900ED2518 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A41E6F25149B885900ED2518 = {
+			isa = PBXGroup;
+			children = (
+				A41E6F3A149B885900ED2518 /* Testa */,
+				A41E6F33149B885900ED2518 /* Frameworks */,
+				A41E6F31149B885900ED2518 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A41E6F31149B885900ED2518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A41E6F30149B885900ED2518 /* Testa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A41E6F33149B885900ED2518 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A41E6F34149B885900ED2518 /* UIKit.framework */,
+				A41E6F36149B885900ED2518 /* Foundation.framework */,
+				A41E6F38149B885900ED2518 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A41E6F3A149B885900ED2518 /* Testa */ = {
+			isa = PBXGroup;
+			children = (
+				A41E6F43149B885900ED2518 /* AppDelegate.h */,
+				A41E6F44149B885900ED2518 /* AppDelegate.m */,
+				A41E6F46149B885900ED2518 /* FirstViewController.h */,
+				A41E6F47149B885900ED2518 /* FirstViewController.m */,
+				A41E6F49149B885900ED2518 /* first.png */,
+				A41E6F4B149B885900ED2518 /* first@2x.png */,
+				A41E6F4D149B885900ED2518 /* SecondViewController.h */,
+				A41E6F4E149B885900ED2518 /* SecondViewController.m */,
+				A41E6F50149B885900ED2518 /* second.png */,
+				A41E6F52149B885900ED2518 /* second@2x.png */,
+				A41E6F54149B885900ED2518 /* FirstViewController.xib */,
+				A41E6F57149B885900ED2518 /* SecondViewController.xib */,
+				A41E6F3B149B885900ED2518 /* Supporting Files */,
+			);
+			path = Testa;
+			sourceTree = "<group>";
+		};
+		A41E6F3B149B885900ED2518 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A41E6F3C149B885900ED2518 /* Testa-Info.plist */,
+				A41E6F3D149B885900ED2518 /* InfoPlist.strings */,
+				A41E6F40149B885900ED2518 /* main.m */,
+				A41E6F42149B885900ED2518 /* Testa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A41E6F2F149B885900ED2518 /* Testa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A41E6F5C149B885900ED2518 /* Build configuration list for PBXNativeTarget "Testa" */;
+			buildPhases = (
+				A41E6F2C149B885900ED2518 /* Sources */,
+				A41E6F2D149B885900ED2518 /* Frameworks */,
+				A41E6F2E149B885900ED2518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Testa;
+			productName = Testa;
+			productReference = A41E6F30149B885900ED2518 /* Testa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A41E6F27149B885900ED2518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A41E6F2A149B885900ED2518 /* Build configuration list for PBXProject "Testa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A41E6F25149B885900ED2518;
+			productRefGroup = A41E6F31149B885900ED2518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A41E6F2F149B885900ED2518 /* Testa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A41E6F2E149B885900ED2518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41E6F3F149B885900ED2518 /* InfoPlist.strings in Resources */,
+				A41E6F4A149B885900ED2518 /* first.png in Resources */,
+				A41E6F4C149B885900ED2518 /* first@2x.png in Resources */,
+				A41E6F51149B885900ED2518 /* second.png in Resources */,
+				A41E6F53149B885900ED2518 /* second@2x.png in Resources */,
+				A41E6F56149B885900ED2518 /* FirstViewController.xib in Resources */,
+				A41E6F59149B885900ED2518 /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A41E6F2C149B885900ED2518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41E6F41149B885900ED2518 /* main.m in Sources */,
+				A41E6F45149B885900ED2518 /* AppDelegate.m in Sources */,
+				A41E6F48149B885900ED2518 /* FirstViewController.m in Sources */,
+				A41E6F4F149B885900ED2518 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A41E6F3D149B885900ED2518 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A41E6F3E149B885900ED2518 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A41E6F54149B885900ED2518 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A41E6F55149B885900ED2518 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		A41E6F57149B885900ED2518 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A41E6F58149B885900ED2518 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A41E6F5A149B885900ED2518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A41E6F5B149B885900ED2518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A41E6F5D149B885900ED2518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Testa/Testa-Prefix.pch";
+				INFOPLIST_FILE = "Testa/Testa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A41E6F5E149B885900ED2518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Testa/Testa-Prefix.pch";
+				INFOPLIST_FILE = "Testa/Testa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A41E6F2A149B885900ED2518 /* Build configuration list for PBXProject "Testa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41E6F5A149B885900ED2518 /* Debug */,
+				A41E6F5B149B885900ED2518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A41E6F5C149B885900ED2518 /* Build configuration list for PBXNativeTarget "Testa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A41E6F5D149B885900ED2518 /* Debug */,
+				A41E6F5E149B885900ED2518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A41E6F27149B885900ED2518 /* Project object */;
+}
